@@ -1,0 +1,115 @@
+@charset "UTF-8";
+    
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&family=Passion+One:wght@400;700;900&family=Playfair+Display&family=Quintessential&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&family=Playfair+Display&family=Quintessential&family=Sriracha&display=swap');
+
+
+body{
+ height: 100%;
+ margin: 0px;
+}
+header{
+    font-family: passion one;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header>h1{
+    padding-top: 20px;
+    padding-bottom:0px;
+    margin: 0px;
+    font-size:8vw;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+header>h2{
+    margin: 0px;
+    font-size: 4vw;
+    padding-bottom: 20px;
+    font-family: passion one regular;
+    padding-top: 0px;
+    margin-top:0px;
+}
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: passion one;
+    border-radius: 10px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header a:active{
+    color: rgb(253, 235, 161);
+}
+main{
+    padding-left: 0px;
+    margin: auto;
+}
+section{
+    font-family: Sriracha;
+    line-height: 3vw;
+    margin-bottom: 10vw;
+    margin-top: 10vw;
+    font-size: 3.5vw;
+}
+section.simples{
+    padding-left: 45px;
+}
+footer{
+    background-color: black; 
+    color: white;
+    text-align: center;      
+}
+footer p{
+    margin: 0px;
+    padding: 10px;
+    font-size: 3.5vw;
+    font-family: passion one regular ; 
+}
+footer a{
+    font-family: passion one ;
+    text-decoration: none;
+    color: white;
+}
+section.paralaxe#q1{
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;    
+    padding: 20px 20px 20px 20px;
+    line-height: 6vw;
+    color: white;
+    background-position:right center ;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
+}
+section.paralaxe#q1>p{
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 25px 0px 25px 25px ;
+    border-radius: 10px;
+    width: 50vw; 
+    text-shadow: 1px 1px 0px black;
+    }
+div{
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;    
+    padding: 20px 20px 20px 20px;
+    color: white;
+    background-position:right center ;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
+}
+div p{
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 25px 0px 25px 25px ;
+    border-radius: 10px;
+    width: 50vw;
+    text-shadow: 1px 1px 0px black;
+    }  
+section.paralaxe{
+    line-height: 6vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
